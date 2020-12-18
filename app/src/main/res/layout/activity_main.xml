@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a4b0be"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Euro'nun Döviz Kurları"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/chfText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="İsviçre Frangı :"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="25dp"></TextView>
+
+    <TextView
+        android:id="@+id/usdText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Amerikan Doları :"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="25dp"></TextView>
+
+    <TextView
+        android:id="@+id/jpyText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Japon Yeni :"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="25dp"></TextView>
+
+    <TextView
+        android:id="@+id/trText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Türk Lirası :"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="25dp"></TextView>
+
+    <TextView
+        android:id="@+id/cadText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Kanada Doları :"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="25dp"></TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="getRates"
+        android:layout_marginTop="20dp"
+        android:text="Kur Bilgilerini Getir"
+        android:id="@+id/getRates"
+        android:textAllCaps="false"
+        android:textSize="20dp"></Button>
+
+</LinearLayout>
